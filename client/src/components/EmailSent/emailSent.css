@@ -1,0 +1,59 @@
+.emailsent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.emailsent-app {
+    background: #fff;
+    padding: 3rem;
+}
+
+.emailsent-app p:first-child {
+    font-size: 50px;
+    font-family: var(--font-family);
+    text-align: center;
+    color: var(--color-text);
+}
+
+.emailsent-app p {
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.emailsent-button{
+    display: flex;
+    padding: 12px 30px;
+    margin: auto;
+    border: none;
+    background: var(--color-text);
+    color: #fff;
+    cursor: pointer;
+}
+
+.emailsent-button:hover {
+    background: lightgrey;
+    color: var(--color-text);
+}
+
+@media screen   and (max-width: 990px) {
+    .emailsent {
+        display: block;
+        height: auto;
+    }
+
+    .emailsent-app {
+        background: #fff;
+        padding: 3rem;
+    }
+
+    .emailsent-app p:first-child {
+        font-size: 20px;
+        font-family: var(--font-family);
+        text-align: center;
+        color: var(--color-text);
+    }
+}

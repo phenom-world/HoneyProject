@@ -1,0 +1,168 @@
+.honey{ 
+    margin: 3rem;
+}
+
+.honey-start_start {
+    display: flex;
+    justify-content: space-between;
+}
+.honey-start-p {
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.honey-start-p p:first-child{
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+.honey-start-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.honey-end {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.honey-end-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.honey-end-div-p {
+    border:1px solid #e6e6e6;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color:#5e5e5e;
+}
+
+.honey-end-div_div {
+    width: 38px;
+    height: 2px;
+    background: #e6e6e6;
+    margin-top: 15px;
+}
+
+.honey-end-div-btn {
+    margin-left: 1rem;
+    padding: 5px 30px;
+    border: none;
+    background: var(--color-text);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card {
+    margin-right: 4rem;
+    width: 18rem;
+}
+
+
+.card-text {
+    font-size: 14px;
+}
+
+.honey-start-div-hover {
+    position: relative;
+    display: block;
+}
+
+.honey-start-div-hover_btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.honey-start-div-hover_btn button {
+    margin-right: 1rem;
+    border: none;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 20px;
+    opacity: 0.5;
+    
+}
+
+
+.honey-start-div-hover .honey-start-div-hover-img{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+
+.honey-start-div-hover:hover .honey-start-div-hover-img{
+    opacity:0.35
+}
+
+.honey-start-div-hover .honey-start-div-hover_btn button {
+    opacity: 0;
+}
+
+
+
+.honey-start-div-hover:hover .honey-start-div-hover_btn button {
+    opacity: 1;
+    color: black;
+}
+
+
+@media screen and (max-width: 990px){
+    .honey-start{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .honey-start_start {
+       
+        flex-direction: column;
+    }
+
+    .honey-end {
+        width:100%;
+    }
+
+    .honey-start-p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    .honey-start-div{
+        flex-direction: column;
+    }
+
+    .card {
+        width: 40rem;
+    }
+
+    .honey-end-div{
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        margin: 0 0 2rem 0;
+    }
+
+    .card-img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .card {
+        width: 18rem;
+    }
+}

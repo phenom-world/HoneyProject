@@ -1,0 +1,45 @@
+.emailverified {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.emailverified-app {
+    background: #fff;
+    padding: 3rem;
+}
+
+.emailverified-app p:first-child {
+    font-size: 50px;
+    font-family: var(--font-family);
+    text-align: center;
+    color: var(--color-text);
+}
+
+.emailverified-app p {
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+
+@media screen   and (max-width: 990px) {
+    .emailverified {
+        display: block;
+        height: auto;
+    }
+
+    .emailverified-app {
+        background: #fff;
+        padding: 3rem;
+    }
+
+    .emailverified-app p:first-child {
+        font-size: 20px;
+        font-family: var(--font-family);
+        text-align: center;
+        color: var(--color-text);
+    }
+}
